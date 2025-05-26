@@ -1,0 +1,17 @@
+#acccessing from inside project
+# accessing form inside the local
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: native
+#    active: git
+  cloud:
+    config:
+      server:
+        native:
+#          search-locations: "classpath:/config"
+         search-locations: "file:///D://GitHub_Public//configurationfiles"
+        
+server:
+  port: 8071

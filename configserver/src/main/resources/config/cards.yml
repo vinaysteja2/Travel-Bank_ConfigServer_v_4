@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to TravelBank cards related local APIs "
+  contactDetails:
+    name: "Dragos Lech - Developer"
+    email: "dragos@travelbank.com"
+  onCallSupport:
+    - (412) 419-3491
+    - (915) 382-1932
