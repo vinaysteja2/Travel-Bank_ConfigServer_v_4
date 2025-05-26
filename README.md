@@ -88,9 +88,9 @@ spring:
 
 ## 📚 Related Repositories
 
-* [`travelbank-microservices`](https://github.com/your-org/travelbank-microservices)
-* [`travelbank-docker`](https://github.com/your-org/travelbank-docker)
-* [`travelbank-config-management`](https://github.com/your-org/travelbank-config-management)
+* [`travelbank-microservices`](https://github.com/vinaysteja2/TRAVEL-BANK_Micorservices_v_1.git)
+* [`travelbank-docker`](https://github.com/vinaysteja2/TRAVEL-BANK_Docker_v_2.git)
+* [`travelbank-config-management`](https://github.com/vinaysteja2/Travel-Bank_Config_Management_v_3.git)
 
 ---
 
