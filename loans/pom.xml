@@ -52,7 +52,10 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
-
+       <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+		</dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -99,7 +102,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                  <configuration>
                     <image>
-                        <name>vinaysteja0231/${project.artifactId}:v2.1</name>
+                        <name>vinaysteja0231/${project.artifactId}:v4.2</name>
                     </image>
                 </configuration>
             </plugin>
@@ -122,7 +125,7 @@
                 <version>3.4.2</version>
                 <configuration>
                     <to>
-                        <image>vinaysteja0231/${project.artifactId}:v3.0</image>
+                        <image>vinaysteja0231/${project.artifactId}:v4.2</image>
                     </to>
                 </configuration>
             </plugin>

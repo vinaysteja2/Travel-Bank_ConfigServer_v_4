@@ -4,14 +4,46 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
-#    active: git
+#    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
+#        native:
 #          search-locations: "classpath:/config"
-         search-locations: "file:///D://GitHub_Public//configurationfiles"
+#         search-locations: "file:///D://GitHub_Public//configurationfiles"
+       git :
+        uri: "https://github.com/vinaysteja2/Travel-Bank_Config_files.git"
+#        username: ############
+#        password: if repo is private
+        default-label: master
+        timeout: 5
+        clone-on-start: true
+        force-pull: true
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+    
+management:
+    endpoints:
+     web:
+      exposure:
+       include: "*"
+    health:
+     readiness-state:
+       enabled: true
+     liveness-state:
+       enabled: true
+    endpoint:
+      health:
+       probes:
+         enabled: true
+  
+
+      
+
         
 server:
   port: 8071
