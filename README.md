@@ -14,7 +14,7 @@ This project is an evolution of the following previous versions:
 
 ---
 
-## ✨ What’s New in v4.0?
+## ✨ What’s New in v4.2?
 
 ### ✅ Centralized Config Server with Native File Support
 
