@@ -48,6 +48,10 @@
 			<artifactId>spring-cloud-config-monitor</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-monitor</artifactId>
+		</dependency>
+		<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
@@ -83,7 +87,7 @@
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>vinaysteja0231/${project.artifactId}:v3.2</image>
+						<image>vinaysteja0231/${project.artifactId}:v4.2</image>
 					</to>
 				</configuration>
 			</plugin>
