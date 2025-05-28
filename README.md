@@ -8,9 +8,9 @@ This repository introduces centralized configuration management for the Travel B
 
 This repository continues from:
 
-* `TRAVEL-BANK_Microservices_v.1.0`
-* `TRAVEL-BANK_Docker_v.2.0`
-* `TRAVEL-BANK_ConfigManagement_v.3.0`
+* [`TRAVEL-BANK_Microservices_v.1.0`](https://github.com/vinaysteja2/TRAVEL-BANK_Micorservices_v_1.git)
+* [`TRAVEL-BANK_Docker_v.2.0`](https://github.com/vinaysteja2/TRAVEL-BANK_Docker_v_2.git)
+* [`TRAVEL-BANK_ConfigManagement_v.3.0`](https://github.com/vinaysteja2/Travel-Bank_Config_Management_v_3.git)
 
 The current version, **`v4.0`**, introduces a **Spring Cloud Config Server** as a centralized source of truth for all configuration files used by the microservices.
 
